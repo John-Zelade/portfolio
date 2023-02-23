@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/John-Zelade/portfolio.git/static/css/main.0e212c15.css",
+    "main.js": "/John-Zelade/portfolio.git/static/js/main.fcb16cf2.js",
+    "static/media/image1.png": "/John-Zelade/portfolio.git/static/media/image1.335406ee0e3f9bfb54b4.png",
+    "index.html": "/John-Zelade/portfolio.git/index.html",
+    "main.0e212c15.css.map": "/John-Zelade/portfolio.git/static/css/main.0e212c15.css.map",
+    "main.fcb16cf2.js.map": "/John-Zelade/portfolio.git/static/js/main.fcb16cf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e212c15.css",
+    "static/js/main.fcb16cf2.js"
+  ]
+}
