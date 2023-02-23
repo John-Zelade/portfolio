@@ -5,7 +5,7 @@ export const About=()=>{
     return(
         <>
         <div >
-           
+           what the fuvk!
         </div>
         </>
     );
