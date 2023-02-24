@@ -23,7 +23,7 @@ function Navigation() {
           </div>
         <div className="collapse navbar-collapse navbar-con" id="navbar-con"> 
             <ul className="navbar-nav">
-                <li className="nav-item"><a className="nav-link" href="portfolio/">Home</a></li>
+                <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
                 <li className="nav-item"><a className="nav-link" href="/about">About</a></li>
                 <li className="nav-item"><a className="nav-link" href="/skills">Skills</a></li>
                 <li className="nav-item"><a className="nav-link" href="/services">Services</a></li>
