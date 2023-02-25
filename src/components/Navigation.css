@@ -32,13 +32,16 @@
     border-radius: 10px;
 }
 .navigation .navbar-con{
-    justify-content: center;
+    justify-content: space-evenly;
     list-style-type: none;
     margin: 1rem;
 }
 .navbar-con .navbar-nav{
     gap: 1rem;
     align-items: center;
+}
+.navbar-con .nav-item{
+    margin-right: 2rem;
 }
 .navigation .navbar-con li a{
     font-family:"Montserrat" ;
