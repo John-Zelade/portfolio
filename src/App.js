@@ -5,36 +5,8 @@ import Navigation from './components/Navigation';
 import {Services} from './components/Services';
 import {Home }from './components/Home';
 import {About} from './components/About';
-import {Skills }from './components/Skills';
 import {Contact} from './components/Contact';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />, 
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path: "/skills",
-    element: <Skills />, 
-  },
-  {
-    path: "/services",
-    element: <Services />,
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
-  },
-  
-]);
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 function App() {
   return (
@@ -42,8 +14,14 @@ function App() {
          <div className="App">
             <ParticleBackground />
             <Navigation />
-            <RouterProvider router={router} />
-           
+            <BrowserRouter basename='/portfolio'>
+              <Routes>
+                  <Route exact path="/portfolio" element={<Home/>}/>
+                  <Route path="/about" element={<About/>}/>
+                  <Route path="/services" element={<Services/>}/>
+                  <Route path="/contact" element={<Contact/>}/>
+              </Routes>
+            </BrowserRouter>
         </div>
 
   );

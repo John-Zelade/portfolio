@@ -14,13 +14,14 @@
 .navigation .logo-con{
     display:flex;
     align-items: center;
+    padding-left: 3rem;
 }
 .navigation .navbar-toggler-con{
     display: flex;
     justify-content: end;
 }
 .navigation .navbar-toggler{
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 .navigation .logo{
     font-size: xx-large;

@@ -14,9 +14,14 @@ export const Home=()=>{
     return(
         <>
             <div className='container-fluid home'>
-            <div className='d-lg-flex flex-row-lg-reverse'>
+            <div className='d-lg-flex flex-row'>
+            <div className='image-con col'>
+                <div className='image col'>     
+                    <img className='img img-fluid' src={image} alt="" />
+                </div> 
+                </div>
                 <div className='text-con col'>
-                    <span className='h1 display-5'>Hi, I'm John Zelade</span>
+                    <span className='h1'>Hi, I'm John Zelade</span>
                  <div className='typing-text'>
                     
                  <Typed
@@ -36,11 +41,6 @@ export const Home=()=>{
                     </button>                
                 </div>
                 </div>  
-                <div className='image-con col'>
-                <div className='image col'>     
-                    <img className='img img-fluid' src={image} alt="" />
-                </div> 
-                </div>
            </div>
         </div>    
         </>
